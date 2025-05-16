@@ -593,43 +593,21 @@ h3.my-profession{
     color: var(--text-black-900);
     font-weight: 500;
 }
-.sertifikat .sertifikat-item{
+.sertifikat .sertifikat-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
 }
-.sertifikat .sertifikat-item-inner{
+.sertifikat .sertifikat-item-inner {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
 }
-.sertifikat .sertifikat-item-inner .sertifikat-img img{
+.sertifikat .sertifikat-item-inner .sertifikat-img img {
     width: 100%;
     display: block;
 }
-.sertifikat-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0px;
-  }
-  
-  .sertifikat-item {
-    width: calc(33.333% - 20px);
-  }
-  
-  .sertifikat-item-inner {
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  
-  .sertifikat-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
   
 /* contact */
 .contact-title{
@@ -738,6 +716,7 @@ h3.my-profession{
 @media (max-width:991px){
     .contact .contact-info-item,
     .portofolio .portofolio-item,
+    .sertifikat .sertifikat-item,
     .service .service-item{
         flex: 0 0 50%;
         max-width: 50%;   
@@ -754,6 +733,7 @@ h3.my-profession{
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portofolio .portofolio-item,
+    .sertifikat .sertifikat-item,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
